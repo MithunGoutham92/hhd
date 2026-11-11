@@ -1,0 +1,13 @@
+[
+  {
+    "text": "I cannot log in to MyUW since yesterday. My name is Lee Park and my email is lee.park@example.com.",
+    "must_hide": [
+      "Lee Park",
+      "lee.park@example.com"
+    ],
+    "must_keep": [
+      "MyUW"
+    ],
+    "note": "Sample case: change it or replace it with your own."
+  }
+]

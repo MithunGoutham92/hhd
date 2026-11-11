@@ -1,0 +1,12 @@
+[
+  {
+    "answer": "Laptops must be returned by June 12, 2027. A $5 fee is charged for each day a laptop is late. You can keep the laptop over the summer.",
+    "policy_text": "Students can borrow a laptop from the library for one quarter. Laptops must be returned by June 12, 2027. A $5 fee is charged for each day a laptop is late.",
+    "statuses": [
+      "supported",
+      "supported",
+      "unsupported"
+    ],
+    "note": "Sample case with a made-up policy: change it or replace it with your own."
+  }
+]

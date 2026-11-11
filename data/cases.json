@@ -1,0 +1,374 @@
+{
+  "about": "Ten student questions about facts published by five UW offices. Each question matches one policy in policies.json. Three questions are in Chinese, Spanish or Korean.",
+  "licence": "The policies are short summaries in our own words of UW web pages (URLs in policies.json), checked 2026-11-09.",
+  "label_rules": {
+    "office": "The UW office that publishes the answer: registrar, international_student, financial_aid, it or housing.",
+    "deadlines / fees": "Dates and dollar amounts that appear in the matching policy and answer the question.",
+    "protected_terms": "Names that must stay the same in an English translation and must not be hidden by Privacy.",
+    "fact_check": "Draft answers copy sentences from the policy (supported). Odd-numbered cases add one sentence that the policy does not state or that changes a value (unsupported).",
+    "privacy": "The last sentence of each privacy text (name, phone or student number, email) is made up and added by us, because the public source data has no personal details. 555-01xx phone numbers and example.com email addresses are reserved for examples."
+  },
+  "cases": [
+    {
+      "id": 1,
+      "source": "Official transcripts, UW registrar page https://registrar.washington.edu/transcripts/pt-faqs/ (checked 2026-11-09). Policy text is a summary in our own words.",
+      "message": "Hi, I need an official transcript for a job application. How much does it cost, and can I pick up a paper copy at the registration office?",
+      "language": "English",
+      "english": "Hi, I need an official transcript for a job application. How much does it cost, and can I pick up a paper copy at the registration office?",
+      "policy_id": "transcripts",
+      "expected": {
+        "office": "registrar",
+        "deadlines": [],
+        "fees": [
+          "$13"
+        ],
+        "protected_terms": [
+          "transcript"
+        ]
+      },
+      "fact_check": {
+        "answer": "An official transcript costs $13 for each copy. You can order it online through Parchment. You can pick up a paper transcript at the registration office.",
+        "expected": [
+          "supported",
+          "supported",
+          "unsupported"
+        ]
+      },
+      "privacy": {
+        "text": "Hi, I need an official transcript for a job application. How much does it cost, and can I pick up a paper copy at the registration office? Thanks, Jordan Example (student number 2600101, jordan@example.com)",
+        "must_hide": [
+          "Jordan Example",
+          "2600101",
+          "jordan@example.com"
+        ],
+        "must_keep": [
+          "transcript"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "source": "Winter 2027 course drops, UW registrar page https://www.washington.edu/students/reg/2627cal.html (checked 2026-11-09). Policy text is a summary in our own words.",
+      "message": "I want to drop one of my winter classes. What is the last day I can drop it in Register.UW without paying a fee?",
+      "language": "English",
+      "english": "I want to drop one of my winter classes. What is the last day I can drop it in Register.UW without paying a fee?",
+      "policy_id": "winter_drops",
+      "expected": {
+        "office": "registrar",
+        "deadlines": [
+          "January 10, 2027",
+          "March 12, 2027"
+        ],
+        "fees": [
+          "$20"
+        ],
+        "protected_terms": [
+          "Register.UW"
+        ]
+      },
+      "fact_check": {
+        "answer": "The last day to change your Winter 2027 registration in Register.UW without a $20 Change of Registration Fee is January 10, 2027. The Late Course Drop Period for Winter 2027 is January 19, 2027 to March 12, 2027.",
+        "expected": [
+          "supported",
+          "supported"
+        ]
+      },
+      "privacy": {
+        "text": "I want to drop one of my winter classes. What is the last day I can drop it in Register.UW without paying a fee? From: Jordan Example / 2600102 / jordan@example.com",
+        "must_hide": [
+          "Jordan Example",
+          "2600102",
+          "jordan@example.com"
+        ],
+        "must_keep": [
+          "Register.UW"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "source": "Travel signatures, UW international_student page https://iss.washington.edu/travel/travel-signatures/ (checked 2026-11-09). Policy text is a summary in our own words.",
+      "message": "我下个月要回国探亲，然后再回美国。我的I-20需要旅行签名吗？在哪里申请？",
+      "language": "Chinese",
+      "english": "I am going home to visit my family next month and then coming back to the U.S. Does my I-20 need a travel signature? Where do I request it?",
+      "policy_id": "travel_signatures",
+      "expected": {
+        "office": "international_student",
+        "deadlines": [],
+        "fees": [],
+        "protected_terms": [
+          "I-20"
+        ]
+      },
+      "fact_check": {
+        "answer": "You need a valid travel signature on your I-20 to return to the U.S. after travel abroad. You can request an electronic travel signature through MyISSS. A travel signature is valid for two years.",
+        "expected": [
+          "supported",
+          "supported",
+          "unsupported"
+        ]
+      },
+      "privacy": {
+        "text": "I am going home to visit my family next month and then coming back to the U.S. Does my I-20 need a travel signature? Where do I request it? My name is Jordan Example, my student number is 2600103, and my email is jordan@example.com.",
+        "must_hide": [
+          "Jordan Example",
+          "2600103",
+          "jordan@example.com"
+        ],
+        "must_keep": [
+          "I-20"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "source": "Enrolling less than full-time (F-1), UW international_student page https://iss.washington.edu/academics-f-1/enrollment-exceptions-f-1/ (checked 2026-11-09). Policy text is a summary in our own words.",
+      "message": "I am on an F-1 visa and I was sick for most of this quarter. My doctor says I should take fewer credits. Can I enroll part-time next quarter?",
+      "language": "English",
+      "english": "I am on an F-1 visa and I was sick for most of this quarter. My doctor says I should take fewer credits. Can I enroll part-time next quarter?",
+      "policy_id": "reduced_load",
+      "expected": {
+        "office": "international_student",
+        "deadlines": [],
+        "fees": [],
+        "protected_terms": [
+          "F-1"
+        ]
+      },
+      "fact_check": {
+        "answer": "F-1 students must always get authorization from ISS before they enroll less than full-time. You can request a reduced course load for a documented medical reason.",
+        "expected": [
+          "supported",
+          "supported"
+        ]
+      },
+      "privacy": {
+        "text": "I am on an F-1 visa and I was sick for most of this quarter. My doctor says I should take fewer credits. Can I enroll part-time next quarter? Thanks, Jordan Example (student number 2600104, jordan@example.com)",
+        "must_hide": [
+          "Jordan Example",
+          "2600104",
+          "jordan@example.com"
+        ],
+        "must_keep": [
+          "F-1"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "source": "FAFSA and WASFA dates, UW financial_aid page https://www.washington.edu/financialaid/applying-for-aid/key-dates/ (checked 2026-11-09). Policy text is a summary in our own words.",
+      "message": "Hola, quiero pedir ayuda financiera para el próximo año. ¿Cuál es la fecha límite para enviar la FAFSA?",
+      "language": "Spanish",
+      "english": "Hi, I want to ask for financial aid for next year. What is the deadline to send the FAFSA?",
+      "policy_id": "fafsa",
+      "expected": {
+        "office": "financial_aid",
+        "deadlines": [
+          "February 1, 2027"
+        ],
+        "fees": [],
+        "protected_terms": [
+          "FAFSA"
+        ]
+      },
+      "fact_check": {
+        "answer": "To meet the UW priority filing date, apply by February 1, 2027. The 2027-2028 FAFSA is available from October 1, 2026. There is a $25 fee to submit the FAFSA.",
+        "expected": [
+          "supported",
+          "supported",
+          "unsupported"
+        ]
+      },
+      "privacy": {
+        "text": "Hi, I want to ask for financial aid for next year. What is the deadline to send the FAFSA? From: Jordan Example / 2600105 / jordan@example.com",
+        "must_hide": [
+          "Jordan Example",
+          "2600105",
+          "jordan@example.com"
+        ],
+        "must_keep": [
+          "FAFSA"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "source": "Winter 2027 aid and tuition dates, UW financial_aid page https://www.washington.edu/financialaid/applying-for-aid/key-dates/ (checked 2026-11-09). Policy text is a summary in our own words.",
+      "message": "My winter tuition bill is on MyUW but my financial aid has not arrived yet. When does the aid go to my tuition account, and when is tuition due?",
+      "language": "English",
+      "english": "My winter tuition bill is on MyUW but my financial aid has not arrived yet. When does the aid go to my tuition account, and when is tuition due?",
+      "policy_id": "winter_aid",
+      "expected": {
+        "office": "financial_aid",
+        "deadlines": [
+          "January 22, 2027"
+        ],
+        "fees": [],
+        "protected_terms": [
+          "MyUW"
+        ]
+      },
+      "fact_check": {
+        "answer": "Winter 2027 financial aid starts to pay into your tuition account on December 31, 2026. The Winter 2027 tuition due date is January 22, 2027.",
+        "expected": [
+          "supported",
+          "supported"
+        ]
+      },
+      "privacy": {
+        "text": "My winter tuition bill is on MyUW but my financial aid has not arrived yet. When does the aid go to my tuition account, and when is tuition due? My name is Jordan Example, my student number is 2600106, and my email is jordan@example.com.",
+        "must_hide": [
+          "Jordan Example",
+          "2600106",
+          "jordan@example.com"
+        ],
+        "must_keep": [
+          "MyUW"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "source": "UW NetID password, UW it page https://it.uw.edu/help/netid/ (checked 2026-11-09). Policy text is a summary in our own words.",
+      "message": "I forgot my UW NetID password and I cannot log in to Canvas. How do I reset it?",
+      "language": "English",
+      "english": "I forgot my UW NetID password and I cannot log in to Canvas. How do I reset it?",
+      "policy_id": "netid_password",
+      "expected": {
+        "office": "it",
+        "deadlines": [],
+        "fees": [],
+        "protected_terms": [
+          "UW NetID"
+        ]
+      },
+      "fact_check": {
+        "answer": "You can reset your UW NetID password at the Identity.UW website. Your UW NetID is the first part of your UW email address. You must visit the UW-IT office in person to reset your password.",
+        "expected": [
+          "supported",
+          "supported",
+          "unsupported"
+        ]
+      },
+      "privacy": {
+        "text": "I forgot my UW NetID password and I cannot log in to Canvas. How do I reset it? Thanks, Jordan Example (student number 2600107, jordan@example.com)",
+        "must_hide": [
+          "Jordan Example",
+          "2600107",
+          "jordan@example.com"
+        ],
+        "must_keep": [
+          "UW NetID"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "source": "Duo bypass codes, UW it page https://it.uw.edu/help/netid/ (checked 2026-11-09). Policy text is a summary in our own words.",
+      "message": "휴대폰을 잃어버려서 Duo 인증을 할 수 없어요. 우회 코드는 어떻게 받을 수 있나요?",
+      "language": "Korean",
+      "english": "I lost my phone, so I cannot use Duo. How can I get a bypass code?",
+      "policy_id": "duo_bypass",
+      "expected": {
+        "office": "it",
+        "deadlines": [],
+        "fees": [],
+        "protected_terms": [
+          "Duo"
+        ]
+      },
+      "fact_check": {
+        "answer": "UW-IT must check your identity before it gives you a bypass code. To get a bypass code, call the UW-IT Technology Service Center at (206) 221-5000, option 1.",
+        "expected": [
+          "supported",
+          "supported"
+        ]
+      },
+      "privacy": {
+        "text": "I lost my phone, so I cannot use Duo. How can I get a bypass code? From: Jordan Example / 2600108 / jordan@example.com",
+        "must_hide": [
+          "Jordan Example",
+          "2600108",
+          "jordan@example.com"
+        ],
+        "must_keep": [
+          "Duo"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "source": "Housing prepayment, UW housing page https://hfs.uw.edu/live/apply-for-housing-new-residents/ (checked 2026-11-09). Policy text is a summary in our own words.",
+      "message": "I want to live in the residence halls next year. Do I have to pay anything when I apply for housing?",
+      "language": "English",
+      "english": "I want to live in the residence halls next year. Do I have to pay anything when I apply for housing?",
+      "policy_id": "housing_prepayment",
+      "expected": {
+        "office": "housing",
+        "deadlines": [],
+        "fees": [
+          "$500"
+        ],
+        "protected_terms": [
+          "residence halls"
+        ]
+      },
+      "fact_check": {
+        "answer": "A $500 prepayment is required for on-campus housing. The prepayment is applied to your autumn quarter housing statement. The prepayment is refunded when you move in.",
+        "expected": [
+          "supported",
+          "supported",
+          "unsupported"
+        ]
+      },
+      "privacy": {
+        "text": "I want to live in the residence halls next year. Do I have to pay anything when I apply for housing? My name is Jordan Example, my student number is 2600109, and my email is jordan@example.com.",
+        "must_hide": [
+          "Jordan Example",
+          "2600109",
+          "jordan@example.com"
+        ],
+        "must_keep": [
+          "residence halls"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "source": "Winter 2027 residence hall cancellation, UW housing page https://hfs.uw.edu/live/uw-housing-agreements/application-cancellation-deferment-and-agreement-termination/ (checked 2026-11-09). Policy text is a summary in our own words.",
+      "message": "I got a room for winter quarter but I found an apartment. If I cancel my housing in late November, how much will I pay?",
+      "language": "English",
+      "english": "I got a room for winter quarter but I found an apartment. If I cancel my housing in late November, how much will I pay?",
+      "policy_id": "winter_cancellation",
+      "expected": {
+        "office": "housing",
+        "deadlines": [],
+        "fees": [
+          "$350",
+          "$500"
+        ],
+        "protected_terms": [
+          "winter quarter"
+        ]
+      },
+      "fact_check": {
+        "answer": "Cancel your housing application in the StarRez Housing Portal. The charge is $500 from November 16, 2026 to November 30, 2026.",
+        "expected": [
+          "supported",
+          "supported"
+        ]
+      },
+      "privacy": {
+        "text": "I got a room for winter quarter but I found an apartment. If I cancel my housing in late November, how much will I pay? Thanks, Jordan Example (student number 2600110, jordan@example.com)",
+        "must_hide": [
+          "Jordan Example",
+          "2600110",
+          "jordan@example.com"
+        ],
+        "must_keep": [
+          "winter quarter"
+        ]
+      }
+    }
+  ]
+}

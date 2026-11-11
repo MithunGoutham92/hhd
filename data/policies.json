@@ -1,0 +1,72 @@
+[
+  {
+    "id": "transcripts",
+    "office": "registrar",
+    "title": "Official transcripts",
+    "url": "https://registrar.washington.edu/transcripts/pt-faqs/",
+    "text": "Order an official UW transcript online through Parchment. Paper transcripts can no longer be ordered or picked up at a campus registration office. An official transcript costs $13 for each copy. You can view your unofficial transcript in MyUW."
+  },
+  {
+    "id": "winter_drops",
+    "office": "registrar",
+    "title": "Winter 2027 course drops",
+    "url": "https://www.washington.edu/students/reg/2627cal.html",
+    "text": "The last day to change your Winter 2027 registration in Register.UW without a $20 Change of Registration Fee is January 10, 2027. The Late Course Drop Period for Winter 2027 is January 19, 2027 to March 12, 2027. In the Late Course Drop Period, you must use the Current Quarter Drop, and a $20 Change of Registration Fee is charged."
+  },
+  {
+    "id": "travel_signatures",
+    "office": "international_student",
+    "title": "Travel signatures",
+    "url": "https://iss.washington.edu/travel/travel-signatures/",
+    "text": "You need a valid travel signature on your I-20 or DS-2019 to return to the U.S. after travel abroad. You do not need a travel signature when you leave the United States. A travel signature is valid for one year. For F-1 students on OPT, a travel signature is valid for six months. Request an electronic travel signature through MyISSS."
+  },
+  {
+    "id": "reduced_load",
+    "office": "international_student",
+    "title": "Enrolling less than full-time (F-1)",
+    "url": "https://iss.washington.edu/academics-f-1/enrollment-exceptions-f-1/",
+    "text": "F-1 students must always get authorization from ISS before they enroll less than full-time. You can request a reduced course load for a documented medical reason. You can also request a reduced course load for limited academic challenges. If you are graduating, you can request to enroll in only your remaining credits."
+  },
+  {
+    "id": "fafsa",
+    "office": "financial_aid",
+    "title": "FAFSA and WASFA dates",
+    "url": "https://www.washington.edu/financialaid/applying-for-aid/key-dates/",
+    "text": "The 2027-2028 FAFSA and WASFA are available from October 1, 2026. To meet the UW priority filing date, apply by February 1, 2027."
+  },
+  {
+    "id": "winter_aid",
+    "office": "financial_aid",
+    "title": "Winter 2027 aid and tuition dates",
+    "url": "https://www.washington.edu/financialaid/applying-for-aid/key-dates/",
+    "text": "Winter 2027 financial aid starts to pay into your tuition account on December 31, 2026. The Winter 2027 tuition due date is January 22, 2027. A Late Payment Fee is added to unpaid tuition balances on January 25, 2027."
+  },
+  {
+    "id": "netid_password",
+    "office": "it",
+    "title": "UW NetID password",
+    "url": "https://it.uw.edu/help/netid/",
+    "text": "You can reset your UW NetID password at the Identity.UW website. Your UW NetID is the first part of your UW email address. If you forgot your UW NetID, use the Find your UW NetID tool at Identity.UW."
+  },
+  {
+    "id": "duo_bypass",
+    "office": "it",
+    "title": "Duo bypass codes",
+    "url": "https://it.uw.edu/help/netid/",
+    "text": "Two-factor authentication with Duo is required to sign in on the web. UW-IT must check your identity before it gives you a bypass code. To get a bypass code, call the UW-IT Technology Service Center at (206) 221-5000, option 1. Never approve a Duo push that you did not ask for."
+  },
+  {
+    "id": "housing_prepayment",
+    "office": "housing",
+    "title": "Housing prepayment",
+    "url": "https://hfs.uw.edu/live/apply-for-housing-new-residents/",
+    "text": "A $500 prepayment is required for on-campus housing. Paying the prepayment is the last step in submitting your housing application. The prepayment is applied to your autumn quarter housing statement. You can find your application on the StarRez Housing Portal."
+  },
+  {
+    "id": "winter_cancellation",
+    "office": "housing",
+    "title": "Winter 2027 residence hall cancellation",
+    "url": "https://hfs.uw.edu/live/uw-housing-agreements/application-cancellation-deferment-and-agreement-termination/",
+    "text": "Cancel your housing application in the StarRez Housing Portal. For a Winter 2027 residence hall application, the cancellation charge is $350 from November 1, 2026 to November 15, 2026. The charge is $500 from November 16, 2026 to November 30, 2026. From December 1, 2026 to January 2, 2027, the charge is $500 plus a $15 late charge for each day. There is no charge if you cancel within one week of applying and you have not been assigned a room."
+  }
+]
