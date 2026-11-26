@@ -1,0 +1,10 @@
+[
+  {
+    "id": "private_001",
+    "name": "Westley",
+    "breed": "British Blue",
+    "dob_month": "July",
+    "owner": "Kevin",
+    "owner_email": "kevin@example.com"
+  }
+]
