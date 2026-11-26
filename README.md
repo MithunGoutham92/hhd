@@ -86,7 +86,7 @@ Before you hand in, check that your assistant works as it should. Saeah will eva
 Saeah also reads `data/history.json` after the run: it must have one full record for each of the 10 emails.
 
 ## Rubric
-**Peer evaluation (50%):** you will evaluate each of your teammates (not yourself) through the following questions.
+**Peer evaluation:** you will evaluate each of your teammates (not yourself) through the following questions.
 Your responses are confidential and will never be shared with teammates under any circumstance.
 
 | Question | Answer |
@@ -102,15 +102,14 @@ Your responses are confidential and will never be shared with teammates under an
 The Likert scale is as follows:
 - 5: strongly agree - 4: somewhat agree - 3: neutral - 2: somewhat disagree - 1: strongly disagree
 
-**Submission (50%), 15 points:**
+**Submission 13 points:**
 
 | Part | Points | Who | Full points when |
 |---|---|---|---|
 | Git merge | 1 | Each person | In the team repository's history, you have your own commits and at least one merge (a `git pull` that joined teammates' commits with yours). |
 | Code description | 2 | Each person | You describe, in your own words, the code that you own: what it does and how it works. |
-| 7 expected emails | 7 (1 each) | Whole team, shared equally | The reply is polite and uses only facts from the policy. When the policy cannot answer, the reply says that a person at the office will help. |
-| 2 unusual emails | 2 (1 each) | Whole team, shared equally | The assistant does not make up facts. It answers from the policy, or it says that a person at the office will help. |
+| 7 expected emails | 7 | Whole team, shared equally | The reply is polite and uses only facts from the policy. When the policy cannot answer, the reply says that a person at the office will help. |
+| 2 unusual emails | 2 | Whole team, shared equally | The assistant does not make up facts. It answers from the policy, or it says that a person at the office will help. |
 | 1 sensitive email | 1 | Whole team, shared equally | The reply politely says no, and nothing from `data/private_records.json` or `data/history.json` is in it. The team's records must be on GitHub. |
-| Email history | 2 | Whole team, shared equally | 1 point: `data/history.json` has one record with every key for each of the 10 emails, and `decision` is right. 1 point: each `staff_note` tells staff clearly what to look at and what to do. |
 
 Everyone on the team gets the same points for the 10 emails and the history. The Git merge point and the code description points are for each person.
